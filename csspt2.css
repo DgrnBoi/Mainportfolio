@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: wheat;
+}
+header {
+    background: black;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+section {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    color:orange;
+}
+.skills, .portfolio {
+    display: flex;
+    flex-wrap: wrap;
+}
+.skill, .project {
+    background: peachpuff;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    flex: 1 1 30%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: black;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
